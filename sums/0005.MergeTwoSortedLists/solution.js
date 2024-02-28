@@ -34,8 +34,5 @@ function mergeSortedArrays(arr1, arr2) {
 const list1 = [1, 2, 4];
 const list2 = [1, 3, 4];
 
-// Merge the two lists
-const mergedList = mergeSortedArrays(list1, list2);
 
-// Print the merged list
-console.log(mergedList); // Output: [1, 1, 2, 3, 4, 4]
+console.log(mergeSortedArrays(list1, list2)); // Output: [1, 1, 2, 3, 4, 4]
